@@ -1,7 +1,7 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 body{
-    background-color: black;
+    background-image: url("loginImage10.jpg");
+   
 }
 .container{
     font-family: 'Poppins', sans-serif;
@@ -15,13 +15,15 @@ border:10px;
 } 
 .box{
     
-    /*background-color: black;*/
-    border:100px;
+    /*background-image: url("loginImage6.jpg");*/
+    padding:20px;
 }
 .text-center{
-    color:#00334d;
+    color:violet;
     font-family: 'Poppins', sans-serif;
-    font-weight: 1000;
+    font-weight: bolder;
+    font-size: 50px;
+    
 }
 .form-control{
     border-radius: 100px;
@@ -31,8 +33,7 @@ border:10px;
 }
 .avatar{
     
-   /* position: relative;
-    left:9rem;*/
+   
 }
 .form-group{
     border-radius: 100px;
@@ -40,19 +41,31 @@ border:10px;
 .form-check{
     display:inline;
 }
-.psw{
+.psw a{
     float:right;
+    color:violet;
 }
 button{
-    background-color:#00334d;
+    background-color:#f2f2f2;
     padding:10px;
-    border-radius:60px;
-    color:white;
+    border-radius: 12px;
+    color:black;
+    width:100%;
+    transition:0.4s;
+}
+.butn{
+    border-radius: 12px;
+    border-color: rgb(245, 67, 141);
 }
 button:hover{
-    background-color: white;
-    color:#00334d;
+    background-color: #ffe6ff;
+    color:rgb(236, 72, 195);
+    font-weight: bold;
 }
+
 .row-mb-3{
     background-color: black;
 }
+/*body{
+    background-image: url("loginImage.jpg");
+}*/
